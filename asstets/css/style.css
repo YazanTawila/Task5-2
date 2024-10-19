@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:rgb(41, 41, 41);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-size: 24px;
+    color: white;
+}
+.label{
+    height: 40px;
+    margin: 10px 0px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.select{
+    height: 40px;
+    margin: 10px 0px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.buttons{
+    text-align: center;
+    margin-top: 10px;
+}
+.buttons button{
+    font-size: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.result{
+    background-color: rgb(65, 180, 65);
+}
+.delet{
+    background-color: red;
+}

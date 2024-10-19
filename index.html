@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./asstets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="from-input">
+            <div>
+                <label for="value"> From :</label>
+            </div>
+            <input type="number" id="value" placeholder=" Enter the value" class="label" />
+            <select id="fromUnit" class="select">
+                <option value="Meters">Meters</option>
+                <option value="Kilometers">Kilometers</option>
+                <option value="Centimeters">Centimeters</option>
+            </select>
+        </div>
+        <!--  -->
+        <div class="to-output">
+            <div>
+                <label for="value"> To :</label>
+            </div>
+            <input type="text" id="result" readonly placeholder=" output" class="label"/>
+            <select id="toUnit" class="select">
+                <option value="Meters">Meters</option>
+                <option value="Kilometers">Kilometers</option>
+                <option value="Centimeters">Centimeters</option>
+            </select>
+        </div>
+        <!--  -->
+        <div class="buttons">
+            <button onclick="result()" class="result">Result</button>
+            <button onclick="clearValues()" class="delet">Delet</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
